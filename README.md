@@ -1,4 +1,8 @@
 # dynamic-design-test
 ```bash
-  npm run deploy
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    window.location.href = 'mobile.html';
+  }else{
+    window.location.href = 'index.html';
+  }
 ```
